@@ -4,8 +4,20 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <h1>Tableaux</h1>
-    <table border="1">
+    <!-- Commentaire simple -->
+    <h1 id="planningCompensationEdit_Dialog">Tableaux</h1>
+    <h2>Titre simple</h2>
+
+    <div id="potDeFleur" class="container number txt-blue">
+        <div class="ligne">
+            <div class="colonne">Du text dans la colonne dans la ligne</div>
+        </div>
+        <p class="txt-blue">Du texte orange</p>
+    </div>
+
+    <p class="txt-blue">Du texte bleu</p>
+
+    <table border="1" id="monTableau">
         <thead>
             <tr>
                 <td rowspan="2">Produits</td>
@@ -19,7 +31,7 @@
         <tbody>
             <tr>
                 <td>Pomme</td>
-                <td class="number">40</td>
+                <td class="number txt-blue">40</td>
                 <td class="number">2.00</td>
             </tr>
             <tr>
@@ -29,7 +41,7 @@
             </tr>
             <tr>
                 <td>Abricots</td>
-                <td class="number">2500</td>
+                <td id="blocBase" class="number">2500</td>
                 <td class="number">123.80</td>
             </tr>
         </tbody>
@@ -76,3 +88,10 @@
 
 </body>
 </html>
+
+
+
+
+
+
+

@@ -1,14 +1,24 @@
-thead {
-    color: green;
-    font-weight: 800;
+/* On applique les styles sur chaque élément séparé par une virgule */
+h1,
+h2,
+.number,
+#container {
+    color: blue;
 }
 
-.number {
-    text-align: right;
+.txtUp { font-size: 24px; }
+
+h1, h2, h3 {
+    font-size: 14px;
+    color: red;
 }
 
-.interieur {
-    padding: 10px 20px 30px 20px;
-    border: 5px solid green;
-    background: pink;
+/* toutes les classes .txt-blue à l'intérieur d'un id #container */
+#container .txt-blue {
+    color: orange;
+}
+
+/* tous les paragraphes avec les classes .number et .txt-blue */
+p.number.txt-blue {
+    color: pink;
 }
