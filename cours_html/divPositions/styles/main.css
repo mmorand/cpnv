@@ -1,0 +1,20 @@
+.bloc {
+    float:left;
+    width: 50%;
+}
+
+.purple {
+    background: purple;
+}
+
+.pink {
+    background: pink;
+}
+
+.tWhite {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}

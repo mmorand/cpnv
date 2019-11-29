@@ -1,3 +1,41 @@
 table {
+    margin: 0 auto;
     border-collapse: collapse;
+    width: 60%;
+}
+
+table {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}
+
+table tr td {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: grey;
+}
+
+table tbody tr:hover td {
+    background: #777;
+}
+
+tbody tr:nth-child(even) {
+    background: #CCC
+}
+
+tfoot tr:last-child td:first-child {
+    font-weight: bold;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+#bilan {
+    width: 100%;
 }
